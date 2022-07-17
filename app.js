@@ -24,6 +24,7 @@ function addTodo(event) {
   newTodo.innerText = todoInput.value;
   newTodo.classList.add("todo-item");
   todoDiv.appendChild(newTodo);
+  ``;
   //ADD TODO TO LOCAL STORAGE
   saveLocalTodos(todoInput.value);
 
